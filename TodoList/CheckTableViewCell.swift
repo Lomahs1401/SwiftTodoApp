@@ -27,10 +27,10 @@ class CheckTableViewCell: UITableViewCell {
   
   func set(title: String, checked: Bool) {
     label.text = title
-    set(checked: checked)
+    setChecked(checked: checked)
   }
   
-  func set(checked: Bool) {
+  func setChecked(checked: Bool) {
     checkbox.checked = checked
     updateChecked()
   }
